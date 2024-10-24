@@ -7,7 +7,14 @@ const ExperiencesAndEducation = () => {
     <section style={sectionStyle}>
       <div style={containerStyle}>
         <h2 style={headingStyle}>Experiências</h2>
+      
         <Experience
+          role="Auxiliar de Projetista"
+          company="Pavan carrocerias"
+          duration="Outubro 2024 -  Atual"
+          description="Lancamentos de pecas produzidas aprendizado com autocad "
+        />
+          <Experience
           role="Desenvolvedor Mobile Senior"
           company="SHM Tech"
           duration="Abril 2024 - Setembro 2024"
