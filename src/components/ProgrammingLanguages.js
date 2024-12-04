@@ -35,6 +35,15 @@ const SkillsSection = () => {
                     <li style={listItemStyle}>SQLite</li>
                 </ul>
             </Accordion>
+
+                 {/* Accordion for Databases */}
+            <Accordion title="Softwares">
+                <ul style={listStyle}>
+                    <li style={listItemStyle}>SolidWorks</li>
+                    <li style={listItemStyle}>AUTOcad</li>
+                   
+                </ul>
+            </Accordion>
             <section style={sectionStyle}>
             <h2 style={headingStyle}>Línguas que Falo</h2>
             <ul style={listStyle}>
