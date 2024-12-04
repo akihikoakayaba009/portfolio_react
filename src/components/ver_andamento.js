@@ -18,7 +18,7 @@ const Andamento_Faculdade = () => {
         
       
         <a 
-          href="/Andamento_Faculdade.pdf" 
+          href="/andamento_faculdade.pdf" 
           download="Andamento_Faculdade.pdf" 
           style={downloadButtonStyle}
         >
