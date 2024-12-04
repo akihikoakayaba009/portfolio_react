@@ -7,6 +7,11 @@ import SkillsSection from './components/ProgrammingLanguages';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
 import ExperiencesAndEducation from './components/experiencias/ExperiencesAndEducation';
+import CertificadoPython from './components/VerCertificadoPython';
+import CertificadoDevExpress from './components/VerCertificadoDevExpress';
+import Andamento_Faculdade from './components/ver_andamento';
+
+
 const App = () => {
   return (
     <Router>
@@ -17,6 +22,9 @@ const App = () => {
         <Route path="/skills" element={<SkillsSection />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/experience" element={<ExperiencesAndEducation />} />
+        <Route path="/Certificado_Python" element={<CertificadoPython />} />
+        <Route path="/CertificadoDevExpress" element={<CertificadoDevExpress />} />
+        <Route path="/Andamento_Faculdade" element={<Andamento_Faculdade />} />
       </Routes>
       <div style={appStyle}>
       <Footer />
