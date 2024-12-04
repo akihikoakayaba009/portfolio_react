@@ -1,6 +1,8 @@
 import React from 'react';
 import Experience from './Experience';
 import Education from './Education';
+import { FaFileDownload } from 'react-icons/fa';
+
 
 const ExperiencesAndEducation = () => {
   return (
@@ -12,7 +14,7 @@ const ExperiencesAndEducation = () => {
           role="Auxiliar de Projetista"
           company="Pavan carrocerias"
           duration="Outubro 2024 -  Atual"
-          description="Lancamentos de pecas produzidas aprendizado com autocad "
+          description="detalhamento das montagens e das pecas no sofware solid works montagens de menor nivel controle de lancamentos de pedidos de estoque de vendas e de orcamentos "
         />
           <Experience
           role="Desenvolvedor Mobile Senior"
@@ -37,8 +39,39 @@ const ExperiencesAndEducation = () => {
           degree="Bacharelado Analise E desenvolvimento de sistemas"
           institution="Universidade De Passo Fundo"
           duration="2023 - Em Andamento"
+        /> <a 
+        href="/andamento_faculdade" 
+      
+        style={downloadButtonStyle}
+      >
+        <FaFileDownload style={iconStyle} /> Ver Andamento
+      </a>
+         <Education
+          degree="Programação em python do basico ao avançado"
+          institution="udemy"
+          duration="63.5 total hours"
+          
         />
+         <a 
+          href="/certificado_python" 
         
+          style={downloadButtonStyle}
+        >
+          <FaFileDownload style={iconStyle} /> Ver Certificado
+        </a>
+        <Education
+          degree="Controles DevExpress para Asp.Net WebForms"
+          institution="udemy"
+          duration="3 total hours"
+          
+        />
+         <a 
+          href="/CertificadoDevExpress" 
+          style={downloadButtonStyle}
+        >
+          <FaFileDownload style={iconStyle} /> Ver Certificado
+        </a>
+       
       </div>
     </section>
   );
@@ -55,7 +88,23 @@ const containerStyle = {
   maxWidth: '900px',
   margin: '0 auto',
 };
+const downloadButtonStyle = {
+  display: 'inline-block',
+  backgroundColor: '#e94560',
+  color: '#fff',
+  padding: '10px 20px',
+  textDecoration: 'none',
+  borderRadius: '5px',
+  transition: 'background-color 0.3s',
+};
 
+const iconStyle = {
+  marginRight: '8px',
+};
+
+downloadButtonStyle.hover = {
+  backgroundColor: '#d33f5b',
+};
 const headingStyle = {
   fontSize: '2rem',
   marginBottom: '30px',
