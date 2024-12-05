@@ -41,7 +41,7 @@ const SkillsSection = () => {
                 <ul style={listStyle}>
                     <li style={listItemStyle}>SolidWorks</li>
                     <li style={listItemStyle}>AUTOcad</li>
-                      <li style={listItemStyle}>Excel</li>
+                      <li style={listItemStyle}>Office(excel,powerpoint e word)</li>
                    <li style={listItemStyle}>Atualy(emissor de notas fiscais)</li>
                 </ul>
             </Accordion>
