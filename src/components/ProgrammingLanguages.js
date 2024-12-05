@@ -41,9 +41,11 @@ const SkillsSection = () => {
                 <ul style={listStyle}>
                     <li style={listItemStyle}>SolidWorks</li>
                     <li style={listItemStyle}>AUTOcad</li>
-                   
+                      <li style={listItemStyle}>Excel</li>
+                   <li style={listItemStyle}>Atualy(emissor de notas fiscais)</li>
                 </ul>
             </Accordion>
+                
             <section style={sectionStyle}>
             <h2 style={headingStyle}>Línguas que Falo</h2>
             <ul style={listStyle}>
