@@ -2,12 +2,7 @@ import React from 'react';
 
 const Projects = () => {
   const projects = [
-    {
-      name: 'aplicacao web ',
-      description: 'Aplicação Web Para Gestao de Aulas de Ingles.',
-      link: 'silzingles.com',
-      image: 'https://i.postimg.cc/RFK2qzLF/chatify.png', // Imagem representando o projeto
-    },
+   
     {
       name: 'site pra grafica',
       description: 'Site Pra Uma grafica Local',
@@ -19,6 +14,20 @@ const Projects = () => {
       description: 'Ecommerce Simples',
       link: 'https://github.com/akihikoakayaba009/ecommerce',
       image: 'https://i.postimg.cc/Sxbpy5D3/SITE-ECOMMERCE.png', // Imagem representando o projeto
+    },
+    {
+      name: 'Planejamento Orcamentario',
+      description: 'Controle De Gastos Mensais ',
+      link: 'https://gastosmensais2-kvw3rkqhr.vercel.app/',
+       link2: 'https://github.com/akihikoakayaba009/gastos_mensais',
+      image: 'https://i.postimg.cc/tR3S793Z/Screenshot-2024-12-05-055942.jpg', // Imagem representando o projeto
+    },
+    {
+      name: ' Pokedex',
+      description: 'Adicionar Pokemons a uma lista (crud simples) ',
+      link: 'https://pokemons-rose.vercel.app/pokemons',
+       link2: 'https://github.com/akihikoakayaba009/pokemons',
+      image: 'https://i.postimg.cc/8cK0ZHPJ/Screenshot-2024-12-05-060819.jpg', // Imagem representando o projeto
     },
   ];
 
@@ -35,7 +44,8 @@ const Projects = () => {
             />
             <h3 style={projectTitle}>{project.name}</h3>
             <p style={projectDescription}>{project.description}</p>
-            <a href={project.link} style={projectLink}>Ver Projeto</a>
+            <a href={project.link} style={projectLink}>Ver Site</a>
+            <a href={project.link2} style={projectLink}>Ver Projeto</a>
           </div>
         ))}
       </div>
@@ -46,7 +56,7 @@ const Projects = () => {
 const sectionStyle = {
   padding: '40px',
   textAlign: 'center',
-  backgroundColor: '#16213e', // Fundo escuro para combinar com o restante do layout
+  backgroundColor: '#16213e', 
   color: '#f0f0f0',
 };
 
