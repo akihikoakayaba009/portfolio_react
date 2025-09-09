@@ -40,9 +40,10 @@ const SkillsSection = () => {
             <Accordion title="Softwares">
                 <ul style={listStyle}>
                     <li style={listItemStyle}>SolidWorks</li>
-                    <li style={listItemStyle}>AUTOcad</li>
-                      <li style={listItemStyle}>Office(excel,powerpoint e word)</li>
-                   <li style={listItemStyle}>Atualy(emissor de notas fiscais)</li>
+                    <li style={listItemStyle}>Autocad</li>
+                    <li style={listItemStyle}>Sony vegas</li>
+                    <li style={listItemStyle}>Adobe After Effects</li>
+
                 </ul>
             </Accordion>
                 
